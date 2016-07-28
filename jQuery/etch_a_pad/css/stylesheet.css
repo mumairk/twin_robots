@@ -1,0 +1,28 @@
+body {
+    background-color: #345286;
+    margin-top: 30px;
+}
+
+#container {
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    border: 1px solid #000;
+    background-color: #ddd;
+}
+
+.cell {
+    float: left;
+    border: 1px solid #333;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    display: inline;
+    margin-bottom: 3px;
+}
+
+#buttons {
+    text-align:center;
+}

@@ -1,0 +1,338 @@
+/*
+ * Social Buttons for Bootstrap
+ *
+ * Copyright 2013-2015 Panayiotis Lipiridis
+ * Licensed under the MIT License
+ *
+ * https://github.com/lipis/bootstrap-social
+ */
+
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.btn-social>:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
+}
+.btn-social.btn-lg {
+    padding-left: 61px
+}
+.btn-social.btn-lg>:first-child {
+    line-height: 45px;
+    width: 45px;
+    font-size: 1.8em
+}
+.btn-social.btn-sm {
+    padding-left: 38px
+}
+.btn-social.btn-sm>:first-child {
+    line-height: 28px;
+    width: 28px;
+    font-size: 1.4em
+}
+.btn-social.btn-xs {
+    padding-left: 30px
+}
+.btn-social.btn-xs>:first-child {
+    line-height: 20px;
+    width: 20px;
+    font-size: 1.2em
+}
+.btn-social-icon {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0
+}
+.btn-social-icon>:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
+}
+.btn-social-icon.btn-lg {
+    padding-left: 61px
+}
+.btn-social-icon.btn-lg>:first-child {
+    line-height: 45px;
+    width: 45px;
+    font-size: 1.8em
+}
+.btn-social-icon.btn-sm {
+    padding-left: 38px
+}
+.btn-social-icon.btn-sm>:first-child {
+    line-height: 28px;
+    width: 28px;
+    font-size: 1.4em
+}
+.btn-social-icon.btn-xs {
+    padding-left: 30px
+}
+.btn-social-icon.btn-xs>:first-child {
+    line-height: 20px;
+    width: 20px;
+    font-size: 1.2em
+}
+.btn-social-icon>:first-child {
+    border: none;
+    text-align: center;
+    width: 100% !important
+}
+.btn-social-icon.btn-lg {
+    height: 45px;
+    width: 45px;
+    padding-left: 0;
+    padding-right: 0
+}
+.btn-social-icon.btn-sm {
+    height: 30px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0
+}
+.btn-social-icon.btn-xs {
+    height: 22px;
+    width: 22px;
+    padding-left: 0;
+    padding-right: 0
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-facebook:focus, .btn-facebook.focus {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-facebook:active, .btn-facebook.active, .open>.dropdown-toggle.btn-facebook {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-facebook:active:hover, .btn-facebook.active:hover, .open>.dropdown-toggle.btn-facebook:hover, .btn-facebook:active:focus, .btn-facebook.active:focus, .open>.dropdown-toggle.btn-facebook:focus, .btn-facebook:active.focus, .btn-facebook.active.focus, .open>.dropdown-toggle.btn-facebook.focus {
+    color: #fff;
+    background-color: #23345a;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-facebook:active, .btn-facebook.active, .open>.dropdown-toggle.btn-facebook {
+    background-image: none
+}
+.btn-facebook.disabled, .btn-facebook[disabled], fieldset[disabled] .btn-facebook, .btn-facebook.disabled:hover, .btn-facebook[disabled]:hover, fieldset[disabled] .btn-facebook:hover, .btn-facebook.disabled:focus, .btn-facebook[disabled]:focus, fieldset[disabled] .btn-facebook:focus, .btn-facebook.disabled.focus, .btn-facebook[disabled].focus, fieldset[disabled] .btn-facebook.focus, .btn-facebook.disabled:active, .btn-facebook[disabled]:active, fieldset[disabled] .btn-facebook:active, .btn-facebook.disabled.active, .btn-facebook[disabled].active, fieldset[disabled] .btn-facebook.active {
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-facebook .badge {
+    color: #3b5998;
+    background-color: #fff
+}
+.btn-github {
+    color: #fff;
+    background-color: #444;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-github:focus, .btn-github.focus {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-github:hover {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-github:active, .btn-github.active, .open>.dropdown-toggle.btn-github {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-github:active:hover, .btn-github.active:hover, .open>.dropdown-toggle.btn-github:hover, .btn-github:active:focus, .btn-github.active:focus, .open>.dropdown-toggle.btn-github:focus, .btn-github:active.focus, .btn-github.active.focus, .open>.dropdown-toggle.btn-github.focus {
+    color: #fff;
+    background-color: #191919;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-github:active, .btn-github.active, .open>.dropdown-toggle.btn-github {
+    background-image: none
+}
+.btn-github.disabled, .btn-github[disabled], fieldset[disabled] .btn-github, .btn-github.disabled:hover, .btn-github[disabled]:hover, fieldset[disabled] .btn-github:hover, .btn-github.disabled:focus, .btn-github[disabled]:focus, fieldset[disabled] .btn-github:focus, .btn-github.disabled.focus, .btn-github[disabled].focus, fieldset[disabled] .btn-github.focus, .btn-github.disabled:active, .btn-github[disabled]:active, fieldset[disabled] .btn-github:active, .btn-github.disabled.active, .btn-github[disabled].active, fieldset[disabled] .btn-github.active {
+    background-color: #444;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-github .badge {
+    color: #444;
+    background-color: #fff
+}
+.btn-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-linkedin:focus, .btn-linkedin.focus {
+    color: #fff;
+    background-color: #005983;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-linkedin:hover {
+    color: #fff;
+    background-color: #005983;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-linkedin:active, .btn-linkedin.active, .open>.dropdown-toggle.btn-linkedin {
+    color: #fff;
+    background-color: #005983;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-linkedin:active:hover, .btn-linkedin.active:hover, .open>.dropdown-toggle.btn-linkedin:hover, .btn-linkedin:active:focus, .btn-linkedin.active:focus, .open>.dropdown-toggle.btn-linkedin:focus, .btn-linkedin:active.focus, .btn-linkedin.active.focus, .open>.dropdown-toggle.btn-linkedin.focus {
+    color: #fff;
+    background-color: #00405f;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-linkedin:active, .btn-linkedin.active, .open>.dropdown-toggle.btn-linkedin {
+    background-image: none
+}
+.btn-linkedin.disabled, .btn-linkedin[disabled], fieldset[disabled] .btn-linkedin, .btn-linkedin.disabled:hover, .btn-linkedin[disabled]:hover, fieldset[disabled] .btn-linkedin:hover, .btn-linkedin.disabled:focus, .btn-linkedin[disabled]:focus, fieldset[disabled] .btn-linkedin:focus, .btn-linkedin.disabled.focus, .btn-linkedin[disabled].focus, fieldset[disabled] .btn-linkedin.focus, .btn-linkedin.disabled:active, .btn-linkedin[disabled]:active, fieldset[disabled] .btn-linkedin:active, .btn-linkedin.disabled.active, .btn-linkedin[disabled].active, fieldset[disabled] .btn-linkedin.active {
+    background-color: #007bb6;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-linkedin .badge {
+    color: #007bb6;
+    background-color: #fff
+}
+.btn-twitter {
+    color: #fff;
+    background-color: #55acee;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-twitter:focus, .btn-twitter.focus {
+    color: #fff;
+    background-color: #2795e9;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-twitter:hover {
+    color: #fff;
+    background-color: #2795e9;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-twitter:active, .btn-twitter.active, .open>.dropdown-toggle.btn-twitter {
+    color: #fff;
+    background-color: #2795e9;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-twitter:active:hover, .btn-twitter.active:hover, .open>.dropdown-toggle.btn-twitter:hover, .btn-twitter:active:focus, .btn-twitter.active:focus, .open>.dropdown-toggle.btn-twitter:focus, .btn-twitter:active.focus, .btn-twitter.active.focus, .open>.dropdown-toggle.btn-twitter.focus {
+    color: #fff;
+    background-color: #1583d7;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-twitter:active, .btn-twitter.active, .open>.dropdown-toggle.btn-twitter {
+    background-image: none
+}
+.btn-twitter.disabled, .btn-twitter[disabled], fieldset[disabled] .btn-twitter, .btn-twitter.disabled:hover, .btn-twitter[disabled]:hover, fieldset[disabled] .btn-twitter:hover, .btn-twitter.disabled:focus, .btn-twitter[disabled]:focus, fieldset[disabled] .btn-twitter:focus, .btn-twitter.disabled.focus, .btn-twitter[disabled].focus, fieldset[disabled] .btn-twitter.focus, .btn-twitter.disabled:active, .btn-twitter[disabled]:active, fieldset[disabled] .btn-twitter:active, .btn-twitter.disabled.active, .btn-twitter[disabled].active, fieldset[disabled] .btn-twitter.active {
+    background-color: #55acee;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-twitter .badge {
+    color: #55acee;
+    background-color: #fff
+}
+.btn-fcc {
+    color: #fff;
+    background: url(https://res.cloudinary.com/mumairk/image/upload/v1468028165/fcc1_xbiaij.png);
+    background-color: #006400;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-fcc:focus, .btn-fcc.focus {
+    color: #fff;
+    background-color: #005100;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-fcc:hover {
+    color: #fff;
+    background-color: #005100;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-fcc:active, .btn-fcc.active, .open>.dropdown-toggle.btn-fcc {
+    color: #fff;
+    background-color: #005100;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-fcc:active:hover, .btn-fcc.active:hover, .open>.dropdown-toggle.btn-fcc:hover, .btn-fcc:active:focus, .btn-fcc.active:focus, .open>.dropdown-toggle.btn-fcc:focus, .btn-fcc:active.focus, .btn-fcc.active.focus, .open>.dropdown-toggle.btn-fcc.focus {
+    color: #fff;
+    background-color: #003d00;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-fcc:active, .btn-fcc.active, .open>.dropdown-toggle.btn-fcc {
+    background-image: none
+}
+.btn-fcc.disabled, .btn-fcc[disabled], fieldset[disabled] .btn-fcc, .btn-fcc.disabled:hover, .btn-fcc[disabled]:hover, fieldset[disabled] .btn-fcc:hover, .btn-fcc.disabled:focus, .btn-fcc[disabled]:focus, fieldset[disabled] .btn-fcc:focus, .btn-fcc.disabled.focus, .btn-fcc[disabled].focus, fieldset[disabled] .btn-fcc.focus, .btn-fcc.disabled:active, .btn-fcc[disabled]:active, fieldset[disabled] .btn-fcc:active, .btn-fcc.disabled.active, .btn-fcc[disabled].active, fieldset[disabled] .btn-fcc.active {
+    background-color: #006400;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-fcc .badge {
+    color: #006400;
+    background-color: #fff
+}
+.btn-codepen {
+    color: #fff;
+    background-color: #2b292d;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-codepen:focus, .btn-codepen.focus {
+    color: #fff;
+    background-color: #201e21;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-codepen:hover {
+    color: #fff;
+    background-color: #201e21;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-codepen:active, .btn-codepen.active, .open>.dropdown-toggle.btn-codepen {
+    color: #fff;
+    background-color: #201e21;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-codepen:active:hover, .btn-codepen.active:hover, .open>.dropdown-toggle.btn-codepen:hover, .btn-codepen:active:focus, .btn-codepen.active:focus, .open>.dropdown-toggle.btn-codepen:focus, .btn-codepen:active.focus, .btn-codepen.active.focus, .open>.dropdown-toggle.btn-codepen.focus {
+    color: #fff;
+    background-color: #000000;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-codepen:active, .btn-codepen.active, .open>.dropdown-toggle.btn-codepen {
+    background-image: none
+}
+.btn-codepen.disabled, .btn-codepen[disabled], fieldset[disabled] .btn-codepen, .btn-codepen.disabled:hover, .btn-codepen[disabled]:hover, fieldset[disabled] .btn-codepen:hover, .btn-codepen.disabled:focus, .btn-codepen[disabled]:focus, fieldset[disabled] .btn-codepen:focus, .btn-codepen.disabled.focus, .btn-codepen[disabled].focus, fieldset[disabled] .btn-codepen.focus, .btn-codepen.disabled:active, .btn-codepen[disabled]:active, fieldset[disabled] .btn-codepen:active, .btn-codepen.disabled.active, .btn-codepen[disabled].active, fieldset[disabled] .btn-codepen.active {
+    background-color: #000000;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+.btn-codepen .badge {
+    color: #720e9e;
+    background-color: #fff
+}
